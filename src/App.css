@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+  padding: 0 1rem 0 1rem ;
+  background-color: #e9e5e5;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Header{
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 22px;
+}
+
+.App-header {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.prog-img {
+  width: 100%;
+}
+.filter-head{
+  margin: 0.25rem 0.5rem;
+  font-weight: bold
+}
+.filter-title{
+    justify-content: center;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    height: 24px;
+    border-bottom: 2px solid #0000002e;
+}
+.year-button{
+    background-color: #74c751;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 14px;
+    width: 70px;
+    border-radius: 5px;
+    margin: 0.25rem 0.5rem;
+}
+.program-img{
+  border-radius: 5px;
+  background-color: #e9e5e5;
+  margin: 1.5rem;
+}
+.title{
+  font-weight: bold;
+}
+.title-tag{
+  display: flex;
+  margin: 0.5em 0.5em 0.5em 1.5em;
+}
+
+.spacex-comp{
+  display: table;
+}
+.program-section{
+  width: 100%;
+}
+.program-box {
+  width: 95%;
+  background: #fff;
+  border-radius: 0.25rem;
+  display: table;
+  margin: 0.5em 1.5em 0.5em 0.5em;
+  flex-direction: column;
+}
+.filter-box {
+  height: 42em;
+  width: 95%;
+  background: #fff;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+}
+.filter-sec {
+  margin: 1.75rem;
+}
+
+
+@media only screen 
+and (min-device-width : 700px) 
+and (max-device-width : 1024px) {
+  .spacex-comp{
+    display: flex;
+  }
+  .program-section{
+    width: 60%;
+  }
+  .program-box {
+    width: 42%;
+    background: #fff;
+    border-radius: 0.25rem;
+    display: inline-flex;
+    margin: 0.5em 1.5em 0.5em 0.5em;
+    flex-direction: column;
+  }
+  .filter-box {
+    height: 42em;
+    width: 35%;
+    background: #fff;
+    border-radius: 0.25rem;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0.5rem;
+  }
+  .filter-sec {
+    margin: 1.75rem;
+  }
+}
+
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1440px) {
+  .spacex-comp{
+    display: flex;
+  }
+  .program-section{
+    width: 85%;
+  }
+  .program-box{
+    width: 22%;
+    background: #fff;
+    border-radius: 0.25rem;
+    display: inline-flex;
+    margin: 0.5em 1.5em 0.5em 0;
+    flex-direction: column;
+  }
+  .filter-box{
+    height: 37em;
+    width: 20%;
+    background: #fff;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+  }
+  .filter-sec{
+    margin: 0.75rem;
+  }
+}
+
+
+
