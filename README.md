@@ -1,7 +1,11 @@
-## How to Run the application
+## How to RUN the application locally
 
-Execute "npm run ssr" on terminal
-PORT used:  9000
+Execute on terminal
+> "npm run build"
+> "npm run ssr" 
+
+
+Used PORT = process.env.PORT || 9000
 Application can be accessed at "localhost:9000" on web browser
 
 
